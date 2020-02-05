@@ -1,0 +1,119 @@
+/*
+Color Palette
+https://coolors.co/5c0029-94bfbe-70566d-c5c5c5-faf3dd
+#5C0029 - dark scarlet
+#94BFBE - dark sky blue
+#70566D - dim gray
+#c5c5c5 - silver sand
+#faf3dd - beige
+*/
+/* Global styles
+-------------------------------*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: auto;
+    max-height: auto;
+    margin: 0px;
+}
+.row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: white;
+    background-color:#5C0029;
+    padding: 8px;
+    border-radius: 4px;
+}
+a:hover {
+    text-decoration: none;
+    background: rgba(202, 64, 106, 0.60)
+}
+/*Profile
+----------------------------*/
+header {
+    background: #5c0029;
+    color: #faf3dd;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+h1 {
+    color: #faf3dd;
+    font-size: 60px;
+    margin-left: 190px;
+    margin-right: 190px;
+
+}
+.job {
+    font-style: italic;
+    font-size: 45px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+p {
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.content-wrap {
+    width: 1000px;
+}
+/*Projects
+----------------------------*/
+.projects {
+    color: black;
+    background-color: #c5c5c5; 
+    padding-bottom: 10px;
+    border-top: 10px;
+    border-color: white;
+    border-style: solid;
+}
+h2 {
+    font-size: 30px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+h3 {
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.column {
+    flex: 100%;
+    padding: 5px;
+    padding-top: 10px;
+}
+.row {
+    display: table;
+}
+/*Work Experience
+--------------------------*/
+.work-experience {
+    color: #c5c5c5;
+    background-color: #70566d;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-color: white;
+    border-style: solid;
+}
+/*Education
+---------------------------*/
+.education {
+    color: #70566d;
+    background-color: #94BFBE;
+    border-bottom: 10px;
+    border-color: white;
+    border-style: solid;
+/*Footer
+---------------------------*/
+}
+footer {
+    color: #5C0029;
+    background-color: #faf3dd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ahref {
+    margin-left: 150px;
+    margin-right: 190px;
+}
